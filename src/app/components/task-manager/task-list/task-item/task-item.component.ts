@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TaskService } from 'src/app/service/task.service';
-import { Task } from 'src/app/Task';
+import { Task } from 'src/app/Models/Task';
 
 @Component({
   selector: 'app-task-item',
